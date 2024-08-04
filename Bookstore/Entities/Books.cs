@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Bookstore.Models;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Bookstore.Entities
@@ -19,16 +20,20 @@ namespace Bookstore.Entities
         public Genres? genre {  get; set; }
         public int Genre_Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Price is required.")]
         public double Price { get; set; }
-        [Required]
+
+        [Required(ErrorMessage = "Publication date is required.")]
         public DateTime Publication_Date {  get; set; }
-        [Required]
-        public string Description {  get; set; }
+
         public DateTime Created_At { get; set; }
         public DateTime Updated_At { get; set; }
         public string Created_By { get; set; }
         public string Updated_By { get; set; }
+
+        [Required]
+        public string Description { get; set; }
+
 
     }
 }

@@ -137,3 +137,4 @@ D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\obj\Debug\net8.0\refin
 D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\obj\Debug\net8.0\Bookstore.pdb
 D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\obj\Debug\net8.0\Bookstore.genruntimeconfig.cache
 D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\obj\Debug\net8.0\ref\Bookstore.dll
+D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\obj\Debug\net8.0\Bookstore.sourcelink.json

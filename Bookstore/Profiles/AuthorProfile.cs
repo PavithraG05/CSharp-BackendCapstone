@@ -6,6 +6,8 @@ namespace Bookstore.Profiles
     {
         public AuthorProfile() { 
             CreateMap<Entities.Authors, Models.AuthorsDTO>();
+            CreateMap<Entities.Authors, Models.AuthorsDTO>().ReverseMap();
+
         }
     }
 }

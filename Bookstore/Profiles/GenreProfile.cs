@@ -6,6 +6,8 @@ namespace Bookstore.Profiles
     {
         public GenreProfile() { 
             CreateMap<Entities.Genres, Models.GenresDTO>();
+            CreateMap<Entities.Genres, Models.GenresDTO>().ReverseMap();
+
         }
     }
 }
