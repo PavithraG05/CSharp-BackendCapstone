@@ -11,11 +11,12 @@ namespace Bookstore.Entities
         public int Id { get; set; }
         [Required]
         public string Title { get; set; }
-
+        [Required]
         [ForeignKey("Author_Id")]
         public Authors? author {  get; set; }
         public int Author_Id {  get; set; }
 
+        [Required]
         [ForeignKey("Genre_Id")]
         public Genres? genre {  get; set; }
         public int Genre_Id { get; set; }

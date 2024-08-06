@@ -3,48 +3,88 @@
   "WorkspaceRootPath": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\models\\booksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:models\\booksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\entities\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:entities\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\models\\genresdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:models\\genresdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\models\\authorsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:models\\authorsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\profiles\\bookprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:profiles\\bookprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\entities\\genres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:entities\\genres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\services\\bookstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:services\\bookstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\services\\ibookstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:services\\ibookstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\services\\bookstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:services\\bookstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\logs\\bookstorelog20240806.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:logs\\bookstorelog20240806.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\dbcontexts\\bookstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:dbcontexts\\bookstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\entities\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:entities\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\models\\booksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:models\\booksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\profiles\\bookprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:profiles\\bookprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\models\\booksupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:models\\booksupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\models\\authorsupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:models\\authorsupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\models\\genresupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:models\\genresupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\models\\genresdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:models\\genresdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\profiles\\authorprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:profiles\\authorprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\models\\authorsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:models\\authorsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\entities\\genres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:entities\\genres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\entities\\authors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,32 +95,8 @@
       "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:profiles\\genreprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\dbcontexts\\bookstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:dbcontexts\\bookstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\profiles\\authorprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:profiles\\authorprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\profiles\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:profiles\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCB8C84-8D92-4B92-AAAF-066C306551DA}|Bookstore.csproj|d:\\users\\pavithra\\source\\csharp-backendcapstone\\bookstore\\models\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,56 +130,186 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Authors.cs",
-              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Entities\\Authors.cs",
-              "RelativeDocumentMoniker": "Entities\\Authors.cs",
-              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Entities\\Authors.cs",
-              "RelativeToolTip": "Entities\\Authors.cs",
-              "ViewState": "AQIAAAMAAACoNDMzM7MYwBEAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T08:03:27.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "BookController.cs",
               "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "Controllers\\BookController.cs",
               "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Controllers\\BookController.cs",
               "RelativeToolTip": "Controllers\\BookController.cs",
-              "ViewState": "AQIAACoAAADgaGZmZgYxwDIAAAANAAAA",
+              "ViewState": "AQIAABoAAAAAmZmZmfkwwDAAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-03T07:53:01.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T12:18:27.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookstoreLog20240806.txt",
+              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Logs\\BookstoreLog20240806.txt",
+              "RelativeDocumentMoniker": "Logs\\BookstoreLog20240806.txt",
+              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Logs\\BookstoreLog20240806.txt",
+              "RelativeToolTip": "Logs\\BookstoreLog20240806.txt",
+              "ViewState": "AQIAABAFAAAADgAAAAAjwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-08-06T08:08:41.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookstoreRepository.cs",
+              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Services\\BookstoreRepository.cs",
+              "RelativeDocumentMoniker": "Services\\BookstoreRepository.cs",
+              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Services\\BookstoreRepository.cs",
+              "RelativeToolTip": "Services\\BookstoreRepository.cs",
+              "ViewState": "AQIAACgAAAAArpmZmRkewDUAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T11:23:48.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBookstoreRepository.cs",
+              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Services\\IBookstoreRepository.cs",
+              "RelativeDocumentMoniker": "Services\\IBookstoreRepository.cs",
+              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Services\\IBookstoreRepository.cs",
+              "RelativeToolTip": "Services\\IBookstoreRepository.cs",
+              "ViewState": "AQIAAAcAAABozszMzGw0wAwAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T11:24:19.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenreController.cs",
+              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Controllers\\GenreController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GenreController.cs",
+              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Controllers\\GenreController.cs",
+              "RelativeToolTip": "Controllers\\GenreController.cs",
+              "ViewState": "AQIAABoAAAAAbGZmZmYOwCYAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T07:53:48.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AuthorController.cs",
               "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Controllers\\AuthorController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthorController.cs",
               "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Controllers\\AuthorController.cs",
               "RelativeToolTip": "Controllers\\AuthorController.cs",
-              "ViewState": "AQIAAFoAAAAAmpmZmZknwDcAAACrAAAA",
+              "ViewState": "AQIAABwAAAAAz8zMzCw8wCgAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-03T07:53:31.047Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
+              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAAC4AAAAYmZmZmVk5wEkAAADIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T06:26:06.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAABMAAAAAbGZmZmYCwCQAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T07:54:31.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookstoreContext.cs",
+              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\DbContexts\\BookstoreContext.cs",
+              "RelativeDocumentMoniker": "DbContexts\\BookstoreContext.cs",
+              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\DbContexts\\BookstoreContext.cs",
+              "RelativeToolTip": "DbContexts\\BookstoreContext.cs",
+              "ViewState": "AQIAAEIAAAAAhDMzMzMnwFIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T08:37:18.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-03T07:59:47.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Books.cs",
+              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Entities\\Books.cs",
+              "RelativeDocumentMoniker": "Entities\\Books.cs",
+              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Entities\\Books.cs",
+              "RelativeToolTip": "Entities\\Books.cs",
+              "ViewState": "AQIAABwAAABgBAAAAIAywA0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T08:03:19.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GenresDTO.cs",
+              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Models\\GenresDTO.cs",
+              "RelativeDocumentMoniker": "Models\\GenresDTO.cs",
+              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Models\\GenresDTO.cs",
+              "RelativeToolTip": "Models\\GenresDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T07:28:52.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "BookProfile.cs",
               "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Profiles\\BookProfile.cs",
               "RelativeDocumentMoniker": "Profiles\\BookProfile.cs",
               "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Profiles\\BookProfile.cs",
               "RelativeToolTip": "Profiles\\BookProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-03T12:13:42.994Z",
               "EditorCaption": ""
@@ -171,6 +317,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "BooksDTO.cs",
+              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Models\\BooksDTO.cs",
+              "RelativeDocumentMoniker": "Models\\BooksDTO.cs",
+              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Models\\BooksDTO.cs",
+              "RelativeToolTip": "Models\\BooksDTO.cs",
+              "ViewState": "AQIAAAIAAABgAwAAAIAswAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T07:28:26.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthorsUpdateDTO.cs",
+              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Models\\AuthorsUpdateDTO.cs",
+              "RelativeDocumentMoniker": "Models\\AuthorsUpdateDTO.cs",
+              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Models\\AuthorsUpdateDTO.cs",
+              "RelativeToolTip": "Models\\AuthorsUpdateDTO.cs",
+              "ViewState": "AQIAAAAAAAC6ZmZmZiYwwAwAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T08:42:50.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BooksUpdateDTO.cs",
+              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Models\\BooksUpdateDTO.cs",
+              "RelativeDocumentMoniker": "Models\\BooksUpdateDTO.cs",
+              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Models\\BooksUpdateDTO.cs",
+              "RelativeToolTip": "Models\\BooksUpdateDTO.cs",
+              "ViewState": "AQIAAAEAAACAaGZmZuYkwAgAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T11:49:40.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GenresUpdateDTO.cs",
+              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Models\\GenresUpdateDTO.cs",
+              "RelativeDocumentMoniker": "Models\\GenresUpdateDTO.cs",
+              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Models\\GenresUpdateDTO.cs",
+              "RelativeToolTip": "Models\\GenresUpdateDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T10:16:40.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AuthorProfile.cs",
+              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Profiles\\AuthorProfile.cs",
+              "RelativeDocumentMoniker": "Profiles\\AuthorProfile.cs",
+              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Profiles\\AuthorProfile.cs",
+              "RelativeToolTip": "Profiles\\AuthorProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T12:15:18.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthorsDTO.cs",
+              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Models\\AuthorsDTO.cs",
+              "RelativeDocumentMoniker": "Models\\AuthorsDTO.cs",
+              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Models\\AuthorsDTO.cs",
+              "RelativeToolTip": "Models\\AuthorsDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T07:28:40.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "GenreProfile.cs",
               "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Profiles\\GenreProfile.cs",
               "RelativeDocumentMoniker": "Profiles\\GenreProfile.cs",
@@ -183,85 +407,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthorsDTO.cs",
-              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Models\\AuthorsDTO.cs",
-              "RelativeDocumentMoniker": "Models\\AuthorsDTO.cs",
-              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Models\\AuthorsDTO.cs",
-              "RelativeToolTip": "Models\\AuthorsDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
+              "DocumentIndex": 21,
+              "Title": "Authors.cs",
+              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Entities\\Authors.cs",
+              "RelativeDocumentMoniker": "Entities\\Authors.cs",
+              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Entities\\Authors.cs",
+              "RelativeToolTip": "Entities\\Authors.cs",
+              "ViewState": "AQIAAAMAAACoNDMzM7MYwBEAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T07:28:40.646Z",
+              "WhenOpened": "2024-08-03T08:03:27.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Books.cs",
-              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Entities\\Books.cs",
-              "RelativeDocumentMoniker": "Entities\\Books.cs",
-              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Entities\\Books.cs",
-              "RelativeToolTip": "Entities\\Books.cs",
-              "ViewState": "AQIAABEAAAAAb2ZmZiYqwBcAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T08:03:19.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BooksDTO.cs",
-              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Models\\BooksDTO.cs",
-              "RelativeDocumentMoniker": "Models\\BooksDTO.cs",
-              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Models\\BooksDTO.cs",
-              "RelativeToolTip": "Models\\BooksDTO.cs",
-              "ViewState": "AQIAAAIAAAAQzczMzIw7wA0AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T07:28:26.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GenresDTO.cs",
-              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Models\\GenresDTO.cs",
-              "RelativeDocumentMoniker": "Models\\GenresDTO.cs",
-              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Models\\GenresDTO.cs",
-              "RelativeToolTip": "Models\\GenresDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T07:28:52.006Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BookstoreRepository.cs",
-              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Services\\BookstoreRepository.cs",
-              "RelativeDocumentMoniker": "Services\\BookstoreRepository.cs",
-              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Services\\BookstoreRepository.cs",
-              "RelativeToolTip": "Services\\BookstoreRepository.cs",
-              "ViewState": "AQIAAD4AAAAAYJmZmZn3v0IAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T11:23:48.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IBookstoreRepository.cs",
-              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Services\\IBookstoreRepository.cs",
-              "RelativeDocumentMoniker": "Services\\IBookstoreRepository.cs",
-              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Services\\IBookstoreRepository.cs",
-              "RelativeToolTip": "Services\\IBookstoreRepository.cs",
-              "ViewState": "AQIAAAcAAAAQAAAAACAzwA8AAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T11:24:19.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 20,
               "Title": "Genres.cs",
               "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Entities\\Genres.cs",
               "RelativeDocumentMoniker": "Entities\\Genres.cs",
@@ -274,85 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GenreController.cs",
-              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Controllers\\GenreController.cs",
-              "RelativeDocumentMoniker": "Controllers\\GenreController.cs",
-              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Controllers\\GenreController.cs",
-              "RelativeToolTip": "Controllers\\GenreController.cs",
-              "ViewState": "AQIAACYAAABg/////58ywGAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T07:53:48.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AuthorProfile.cs",
-              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Profiles\\AuthorProfile.cs",
-              "RelativeDocumentMoniker": "Profiles\\AuthorProfile.cs",
-              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Profiles\\AuthorProfile.cs",
-              "RelativeToolTip": "Profiles\\AuthorProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T12:15:18.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BookstoreContext.cs",
-              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\DbContexts\\BookstoreContext.cs",
-              "RelativeDocumentMoniker": "DbContexts\\BookstoreContext.cs",
-              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\DbContexts\\BookstoreContext.cs",
-              "RelativeToolTip": "DbContexts\\BookstoreContext.cs",
-              "ViewState": "AQIAAEMCAAAAQgAAAAACwE0CAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T08:37:18.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
-              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "Controllers\\AuthenticationController.cs",
-              "ViewState": "AQIAACoAAAAAoJmZmZkPwDQAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T06:26:06.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAwBgAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T07:54:31.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABEAAAAAZmZmZmYMwBgAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T12:18:27.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "UserProfile.cs",
               "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Profiles\\UserProfile.cs",
               "RelativeDocumentMoniker": "Profiles\\UserProfile.cs",
@@ -365,20 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-03T07:59:47.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "UsersDTO.cs",
               "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Models\\UsersDTO.cs",
               "RelativeDocumentMoniker": "Models\\UsersDTO.cs",
@@ -386,11 +454,12 @@
               "RelativeToolTip": "Models\\UsersDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T07:37:31.464Z"
+              "WhenOpened": "2024-08-03T07:37:31.464Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -398,11 +467,12 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AQIAAAsAAADAAAAAAIAswAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-03T14:28:34.254Z"
+              "WhenOpened": "2024-08-03T14:28:34.254Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "20240803140132_bookstoreinitialseed.cs",
               "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Migrations\\20240803140132_bookstoreinitialseed.cs",
               "RelativeDocumentMoniker": "Migrations\\20240803140132_bookstoreinitialseed.cs",
@@ -410,11 +480,12 @@
               "RelativeToolTip": "Migrations\\20240803140132_bookstoreinitialseed.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T14:01:32.695Z"
+              "WhenOpened": "2024-08-03T14:01:32.695Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "20240803141543_updatePublicationdate.cs",
               "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Migrations\\20240803141543_updatePublicationdate.cs",
               "RelativeDocumentMoniker": "Migrations\\20240803141543_updatePublicationdate.cs",
@@ -422,23 +493,25 @@
               "RelativeToolTip": "Migrations\\20240803141543_updatePublicationdate.cs",
               "ViewState": "AQIAAAkBAAAAmZmZmTkxwA8AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T14:15:43.821Z"
+              "WhenOpened": "2024-08-03T14:15:43.821Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "Bookstore.csproj",
               "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Bookstore.csproj",
               "RelativeDocumentMoniker": "Bookstore.csproj",
               "ToolTip": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Bookstore.csproj",
               "RelativeToolTip": "Bookstore.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-03T07:23:59.266Z"
+              "WhenOpened": "2024-08-03T07:23:59.266Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "Users.cs",
               "DocumentMoniker": "D:\\Users\\pavithra\\source\\CSharp-BackendCapstone\\Bookstore\\Entities\\Users.cs",
               "RelativeDocumentMoniker": "Entities\\Users.cs",
@@ -446,7 +519,8 @@
               "RelativeToolTip": "Entities\\Users.cs",
               "ViewState": "AQIAAAYAAAAANjMzM3MwwAwAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T08:03:45.751Z"
+              "WhenOpened": "2024-08-03T08:03:45.751Z",
+              "EditorCaption": ""
             }
           ]
         }

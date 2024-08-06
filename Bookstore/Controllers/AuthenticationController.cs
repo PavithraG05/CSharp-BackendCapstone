@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Bookstore.Entities;
 using Bookstore.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -15,6 +16,7 @@ namespace Bookstore.Controllers
         private readonly IConfiguration _configuration;
         private readonly IBookstoreRepository _bookstore;
         private readonly IMapper _mapper;
+        private readonly ILogger<AuthenticationController> _logger;
         private class BookstoreUser
         {
 
@@ -41,16 +43,17 @@ namespace Bookstore.Controllers
 
         public class AuthenticationRequestBody
         {
-            public string? UserName { get; set; }
-            public string? Password { get; set; }
+            public string UserName { get; set; }
+            public string Password { get; set; }
         }
         [HttpPost("authenticate")]
-        public ActionResult<string> Authenticate(AuthenticationRequestBody authenticationRequestBody)
+        public async Task<IActionResult> Authenticate(AuthenticationRequestBody authenticationRequestBody)
         {
-            var user = ValidateCredentials(authenticationRequestBody.UserName, authenticationRequestBody.Password);
+            var user = await ValidateCredentials(authenticationRequestBody.UserName, authenticationRequestBody.Password);
 
             if(user == null)
             {
+                _logger.LogError("User unauthorized");
                 return Unauthorized();
             }
             
@@ -59,33 +62,46 @@ namespace Bookstore.Controllers
 
             var signingCredentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
-            var claimsForToken = new List<Claim>();
-            claimsForToken.Add(new Claim("sub", user.Id.ToString()));
-            //claimsForToken.Add(new Claim("given_name", user.Username.ToString());
-            //claimsForToken.Add(new Claim("family_name", user.LastName));
-            
+            var claimsForToken = new List<Claim>
+            {
+                new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
+                new Claim(JwtRegisteredClaimNames.UniqueName, user.UserName), // Adding username claim
+                new Claim(JwtRegisteredClaimNames.GivenName, user.FirstName), // Adding first name claim
+                new Claim(JwtRegisteredClaimNames.FamilyName, user.LastName), // Adding last name claim
+                new Claim(JwtRegisteredClaimNames.Email, user.Email) // Adding email claim
+            };
 
-            var jwtSecurityToken = new JwtSecurityToken(_configuration["Authentication:Issuer"], _configuration["Authentication:Audience"], claimsForToken, DateTime.UtcNow, DateTime.UtcNow.AddHours(1), signingCredentials);
+            var jwtSecurityToken = new JwtSecurityToken(_configuration["Authentication:Issuer"], _configuration["Authentication:Audience"], claimsForToken, DateTime.UtcNow, DateTime.UtcNow.AddHours(2), signingCredentials);
 
             var tokenToReturn = new JwtSecurityTokenHandler().WriteToken(jwtSecurityToken);
+            _logger.LogInformation("Token retrieved successfully");
             return Ok(tokenToReturn);
         }
 
-        public AuthenticationController(IConfiguration configuration, IBookstoreRepository bookstore, IMapper mapper)
+        public AuthenticationController(IConfiguration configuration, IBookstoreRepository bookstore, IMapper mapper, ILogger<AuthenticationController> logger)
         {
             _configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
             _bookstore = bookstore ?? throw new ArgumentNullException(nameof(bookstore));
             _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
         private async Task<BookstoreUser> ValidateCredentials(string userName, string password)
         {
-            var user = await _bookstore.ValidateUser(userName, password);
-
-            if(user == null)
+            //var user = await _bookstore.ValidateUser(userName, password);
+            var user = await _bookstore.GetUserAsync(userName);
+            if (user == null)
             {
                 return null;
             }
             return new BookstoreUser(user.Id, user.Username, user.FirstName, user.LastName, user.Email, user.Password);
+
+            //if (userName == "admin" && password == "pass@123")
+            //{
+            //    return new BookstoreUser(1, "admin", "Pavithra", "g", "pavi@gmail", "pass@123");
+
+            //}
+            //return null;
+
         }
     }
 }

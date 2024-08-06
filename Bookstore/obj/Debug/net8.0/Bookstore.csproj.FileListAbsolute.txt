@@ -138,3 +138,12 @@ D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\obj\Debug\net8.0\Books
 D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\obj\Debug\net8.0\Bookstore.genruntimeconfig.cache
 D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\obj\Debug\net8.0\ref\Bookstore.dll
 D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\obj\Debug\net8.0\Bookstore.sourcelink.json
+D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\bin\Debug\net8.0\Serilog.dll
+D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\bin\Debug\net8.0\Serilog.Sinks.File.dll
