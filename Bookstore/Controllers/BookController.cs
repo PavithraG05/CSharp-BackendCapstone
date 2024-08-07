@@ -6,12 +6,16 @@ using Bookstore.Models;
 using Bookstore.Entities;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using Asp.Versioning;
+using Newtonsoft.Json;
+using static System.Reflection.Metadata.BlobBuilder;
 
 namespace Bookstore.Controllers
 {
     [ApiController]
     [Authorize]
-    [Route("api/books")]
+    [Route("api/v{version:apiVersion}/books")]
+    [ApiVersion(1)]
     public class BookController : ControllerBase
     {
         private readonly IBookstoreRepository _bookstore;
@@ -26,7 +30,7 @@ namespace Bookstore.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<BooksDTO>>> GetBooks(string? name)
+        public async Task<ActionResult<IEnumerable<BooksViewDTO>>> GetBooks(string? name)
         {
             
             try
@@ -35,8 +39,35 @@ namespace Bookstore.Controllers
                 {
                     _logger.LogInformation($"Triggering API to retrieve Book data");
                     var booksEntities = await _bookstore.GetBooksAsync();
+                    var bookDtos = booksEntities.Select(b => new BooksViewDTO
+                    {
+                        Id = b.Id,
+                        Title = b.Title,
+                        Price = b.Price,
+                        Publication_Date = b.Publication_Date,
+                        Description = b.Description,
+                        Author_Id = b.Author_Id,
+                        Genre_Id = b.Genre_Id,
+                        Updated_At = b.Updated_At,
+                        Created_At  = b.Created_At,
+                        Updated_By = b.Updated_By,
+                        Created_By = b.Created_By,
+                        Author = new AuthorsViewDTO
+                        {
+                            Author_Id = b.author.Author_Id,
+                            Author_Name = b.author.Author_Name,
+                            Biography = b.author.Biography
+                        },
+                        Genre = new GenresViewDTO
+                        {
+                            Genre_Id = b.genre.Genre_Id,
+                            Genre_Name = b.genre.Genre_Name
+                        }
+                    }).ToList();
+                    //string json = JsonConvert.SerializeObject(booksEntities);
                     _logger.LogInformation($"Retrieved Book data successfully");
-                    return Ok(_mapper.Map<IEnumerable<BooksDTO>>(booksEntities));
+                    //return Ok(_mapper.Map<IEnumerable<BooksDTO>>(booksEntities));
+                    return Ok(bookDtos);
                 }
 
                 var booksEntity = await _bookstore.GetBooksbyBooknameAsync(name);
@@ -45,8 +76,34 @@ namespace Bookstore.Controllers
                     _logger.LogError($"Books not found");
                     return NotFound();
                 }
+                var bookSearchDtos = booksEntity.Select(b => new BooksViewDTO
+                {
+                    Id = b.Id,
+                    Title = b.Title,
+                    Price = b.Price,
+                    Publication_Date = b.Publication_Date,
+                    Description = b.Description,
+                    Author_Id = b.Author_Id,
+                    Genre_Id = b.Genre_Id,
+                    Updated_At = b.Updated_At,
+                    Created_At = b.Created_At,
+                    Updated_By = b.Updated_By,
+                    Created_By = b.Created_By,
+                    Author = new AuthorsViewDTO
+                    {
+                        Author_Id = b.author.Author_Id,
+                        Author_Name = b.author.Author_Name,
+                        Biography = b.author.Biography
+                    },
+                    Genre = new GenresViewDTO
+                    {
+                        Genre_Id = b.genre.Genre_Id,
+                        Genre_Name = b.genre.Genre_Name
+                    }
+                }).ToList();
                 _logger.LogInformation($"Retrieved Book data successfully");
-                return Ok(_mapper.Map<IEnumerable<BooksDTO>>(booksEntity));
+                //return Ok(_mapper.Map<IEnumerable<BooksDTO>>(booksEntity));
+                return Ok(bookSearchDtos);
             }
             catch (Exception ex)
             {
@@ -57,7 +114,7 @@ namespace Bookstore.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<IEnumerable<BooksDTO>>> GetBook(int id)
+        public async Task<ActionResult<IEnumerable<BooksViewDTO>>> GetBook(int id)
         {
             try
             {
@@ -69,8 +126,34 @@ namespace Bookstore.Controllers
                     _logger.LogError($"Book ID:{id} not found");
                     return NotFound();
                 }
+                var bookDtos = new BooksViewDTO
+                {
+                    Id = bookEntity.Id,
+                    Title = bookEntity.Title,
+                    Price = bookEntity.Price,
+                    Publication_Date = bookEntity.Publication_Date,
+                    Description = bookEntity.Description,
+                    Author_Id = bookEntity.Author_Id,
+                    Genre_Id = bookEntity.Genre_Id,
+                    Updated_At = bookEntity.Updated_At,
+                    Created_At = bookEntity.Created_At,
+                    Updated_By = bookEntity.Updated_By,
+                    Created_By = bookEntity.Created_By,
+                    Author = new AuthorsViewDTO
+                    {
+                        Author_Id = bookEntity.author.Author_Id,
+                        Author_Name = bookEntity.author.Author_Name,
+                        Biography = bookEntity.author.Biography
+                    },
+                    Genre = new GenresViewDTO
+                    {
+                        Genre_Id = bookEntity.genre.Genre_Id,
+                        Genre_Name = bookEntity.genre.Genre_Name
+                    }
+                };
                 _logger.LogInformation($"Retrieved Book data successfully");
-                return Ok(_mapper.Map<BooksDTO>(bookEntity));
+                //return Ok(_mapper.Map<BooksDTO>(bookEntity));
+                return Ok(bookDtos);
             }
             catch (Exception ex)
             {

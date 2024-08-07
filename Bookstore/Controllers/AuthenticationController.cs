@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using Asp.Versioning;
+using AutoMapper;
 using Bookstore.Entities;
 using Bookstore.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -10,7 +11,8 @@ using System.Security.Claims;
 namespace Bookstore.Controllers
 {
     [ApiController]
-    [Route("api/authentication")]
+    [Route("api/v{version:apiVersion}/authentication")]
+    [ApiVersion(1)]
     public class AuthenticationController : ControllerBase
     {
         private readonly IConfiguration _configuration;

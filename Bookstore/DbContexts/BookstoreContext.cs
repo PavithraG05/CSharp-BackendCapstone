@@ -589,6 +589,16 @@ namespace Bookstore.DbContexts
                 }
             );
 
+            modelBuilder.Entity<Books>()
+            .HasOne(b => b.author)
+            .WithMany(a => a.Books)
+            .HasForeignKey(b => b.Author_Id);
+
+            modelBuilder.Entity<Books>()
+                .HasOne(b => b.genre)
+                .WithMany(g => g.Books)
+                .HasForeignKey(b => b.Genre_Id);
+
             modelBuilder.Entity<Genres>()
             .HasIndex(t => t.Genre_Name)
             .IsUnique();

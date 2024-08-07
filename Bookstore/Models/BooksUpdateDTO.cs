@@ -1,4 +1,6 @@
-﻿namespace Bookstore.Models
+﻿using Bookstore.Entities;
+
+namespace Bookstore.Models
 {
     public class BooksUpdateDTO
     {

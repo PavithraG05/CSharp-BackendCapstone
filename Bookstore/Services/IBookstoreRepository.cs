@@ -15,6 +15,7 @@ namespace Bookstore.Services
         Task<Authors?> GetAuthorAsync(int id);
         Task<IEnumerable<Genres>> GetGenresAsync();
         Task<Genres?> GetGenreAsync(int id);
+        Task<Genres?> GetGenrebyNameAsync(string name);
         //Task<Genres?> GetGenrebyNameAsync(string? name);
         Task<Users?> ValidateUser(string  username, string password);
         Task<Users?> GetUserAsync(string username);

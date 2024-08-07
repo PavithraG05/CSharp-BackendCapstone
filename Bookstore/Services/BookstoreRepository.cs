@@ -25,7 +25,7 @@ namespace Bookstore.Services
 
         public async Task<Books?> GetBookAsync(int id)
         {
-            return await _context.Books.Where(c => c.Id == id).FirstOrDefaultAsync();
+            return await _context.Books.Where(c => c.Id == id).Include(c => c.author).Include(c => c.genre).FirstOrDefaultAsync();
 
         }
 
@@ -37,13 +37,13 @@ namespace Bookstore.Services
 
         public async Task<IEnumerable<Books>> GetBooksAsync()
         {
-            return await _context.Books.ToListAsync();
+            return await _context.Books.Include(c=>c.author).Include(c=>c.genre).ToListAsync();
 
         }
 
         public async Task<IEnumerable<Books>> GetBooksbyBooknameAsync(string name)
         {
-            return await _context.Books.Where(a => a.Title.Contains(name)).ToListAsync();
+            return await _context.Books.Where(a => a.Title.Contains(name)).Include(c => c.author).Include(c => c.genre).ToListAsync();
         }
 
         public async Task<IEnumerable<Authors>> GetAuthorsbyAuthornameAsync(string name)
@@ -72,9 +72,15 @@ namespace Bookstore.Services
 
         }
 
+        public async Task<Genres?> GetGenrebyNameAsync(string name)
+        {
+            return await _context.Genres.Where(c => c.Genre_Name.Equals(name)).Include(c => c.Books).FirstOrDefaultAsync();
+
+        }
+
         //public async Task<Genres?> GetGenrebyNameAsync(string? genre)
         //{
-            
+
         //    genre = genre.Trim();
         //    return await _context.Genres.Where(c => c.Genre_Name == genre).Include(c => c.Books).FirstOrDefaultAsync();
         //}

@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using Asp.Versioning;
+using AutoMapper;
 using Bookstore.Models;
 using Bookstore.Services;
 using Microsoft.AspNetCore.Authorization;
@@ -8,7 +9,8 @@ namespace Bookstore.Controllers
 {
     [ApiController]
     [Authorize]
-    [Route("api/users")]
+    [Route("api/v{version:apiVersion}/users")]
+    [ApiVersion(1)]
     public class UserController:ControllerBase
     {
         private readonly IBookstoreRepository _bookstore;

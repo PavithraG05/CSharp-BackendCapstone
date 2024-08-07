@@ -6,12 +6,14 @@ using Microsoft.AspNetCore.Authorization;
 using Bookstore.Entities;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using Asp.Versioning;
 
 namespace Bookstore.Controllers
 {
     [ApiController]
     [Authorize]
-    [Route("api/genres")]
+    [Route("api/v{version:apiVersion}/genres")]
+    [ApiVersion(1)]
     public class GenreController : ControllerBase
     {
         private readonly IBookstoreRepository _bookstore;
@@ -25,7 +27,7 @@ namespace Bookstore.Controllers
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<GenresDTO>>> GetGenres(string name)
+        public async Task<ActionResult<IEnumerable<GenresDTO>>> GetGenres(string? name)
         {
            
             if (string.IsNullOrEmpty(name))
@@ -60,6 +62,30 @@ namespace Bookstore.Controllers
                 }
                 _logger.LogInformation("Retrieved genre by ID successfully");
                 return Ok(_mapper.Map<GenresDTO>(genreEntity));
+            }
+            catch (Exception ex)
+            {
+                // Log the exception and return a generic error response
+                _logger.LogError(ex, "An error occurred while retrieving the genre.");
+                return StatusCode(500, "An error occurred while retrieving the genre.");
+            }
+
+        }
+
+        [HttpGet("name/{name}")]
+        public async Task<ActionResult<IEnumerable<GenresDTO>>> GetGenrebyname(string name)
+        {
+            try
+            {
+                _logger.LogInformation("Triggering api to get genre by Id");
+                var genreEntity = await _bookstore.GetGenrebyNameAsync(name);
+                if (genreEntity == null)
+                {
+                    _logger.LogError($"Genre with {name} doesnt exist");
+                    return Ok(false);
+                }
+                _logger.LogInformation("Retrieved genre by name successfully");
+                return Ok(true);
             }
             catch (Exception ex)
             {

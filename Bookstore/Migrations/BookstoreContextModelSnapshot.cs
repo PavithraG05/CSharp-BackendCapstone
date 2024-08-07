@@ -65,9 +65,9 @@ namespace Bookstore.Migrations
                             Author_Id = 1,
                             Author_Name = "Nancy Bond",
                             Biography = "Nancy Bond is a prolific fantasy writer known for her richly imagined worlds, complex characters, and epic narratives that captivate readers of all ages. Her ability to blend elements of magic and adventure has made her a favorite among fantasy enthusiasts worldwide.",
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7880),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4967),
                             Created_By = "admin",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7881),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4968),
                             Updated_By = "admin"
                         },
                         new
@@ -75,9 +75,9 @@ namespace Bookstore.Migrations
                             Author_Id = 2,
                             Author_Name = "AK Gandhi",
                             Biography = "AK Gandhi born in Meerut took retirement from the Indian Air Force in 1995 at a young age and engaged himself as full-time freelance writer and translator.",
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7886),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4973),
                             Created_By = "admin",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7886),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4974),
                             Updated_By = "admin"
                         },
                         new
@@ -85,9 +85,9 @@ namespace Bookstore.Migrations
                             Author_Id = 3,
                             Author_Name = "John Smith",
                             Biography = "John Smith is a prolific fantasy writer known for his richly imagined worlds, complex characters, and epic narratives that captivate readers of all ages. His ability to blend elements of magic and adventure has made him a favorite among fantasy enthusiasts worldwide.",
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7888),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4976),
                             Created_By = "admin",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7889),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4976),
                             Updated_By = "admin"
                         },
                         new
@@ -95,9 +95,9 @@ namespace Bookstore.Migrations
                             Author_Id = 4,
                             Author_Name = "Sarah Johnson",
                             Biography = "Sarah Johnson writes poignant historical fiction that vividly portrays the past through meticulously researched details and emotionally resonant storytelling. Her novels transport readers to different eras, offering insights into human nature and societal change.,",
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7894),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4978),
                             Created_By = "admin",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7894),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4979),
                             Updated_By = "admin"
                         },
                         new
@@ -105,9 +105,9 @@ namespace Bookstore.Migrations
                             Author_Id = 5,
                             Author_Name = "Michael Andrews",
                             Biography = "Michael Andrews explores the intersection of science, technology, and humanity in his thought-provoking science fiction works. Known for his innovative ideas and compelling narratives, Andrews pushes the boundaries of imagination while addressing profound questions about the future.",
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7896),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4980),
                             Created_By = "admin",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7896),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4981),
                             Updated_By = "admin"
                         },
                         new
@@ -115,9 +115,9 @@ namespace Bookstore.Migrations
                             Author_Id = 6,
                             Author_Name = "Emily Chen",
                             Biography = "Emily Chens thrillers are known for their gripping plots, complex characters, and unpredictable twists that keep readers on the edge of their seats until the final page. Her ability to create suspenseful narratives filled with psychological depth has garnered critical acclaim in the thriller genre.",
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7898),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4982),
                             Created_By = "admin",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7899),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4983),
                             Updated_By = "admin"
                         },
                         new
@@ -125,9 +125,9 @@ namespace Bookstore.Migrations
                             Author_Id = 7,
                             Author_Name = "David Rodriguez",
                             Biography = "David Rodriguez's novels delve into philosophical themes with lyrical prose and introspective storytelling that challenges readers to contemplate life's complexities. His explorations of human emotions and existential questions resonate deeply, making his literary fiction a compelling read for those seeking profound insights.",
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7900),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4984),
                             Created_By = "admin",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7901),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4985),
                             Updated_By = "admin"
                         },
                         new
@@ -135,9 +135,9 @@ namespace Bookstore.Migrations
                             Author_Id = 8,
                             Author_Name = "Alice Thompson",
                             Biography = "Alice Thompson writes enchanting tales of magic and adventure that transport readers to fantastical realms filled with wonder and danger. Her ability to weave intricate plots and create vivid settings has earned her a dedicated following among fans of fantasy literature",
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7902),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4987),
                             Created_By = "admin",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7903),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4987),
                             Updated_By = "admin"
                         },
                         new
@@ -145,9 +145,9 @@ namespace Bookstore.Migrations
                             Author_Id = 9,
                             Author_Name = "Mark Davis",
                             Biography = "Mark Davis is a master of suspense and thriller, crafting stories that blend heart-pounding action with intricate plot twists. His ability to create tension and suspenseful atmospheres has made him a favorite among readers who enjoy thrillers that keep them guessing until the very end.",
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7904),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4989),
                             Created_By = "admin",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7905),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4989),
                             Updated_By = "admin"
                         },
                         new
@@ -155,9 +155,9 @@ namespace Bookstore.Migrations
                             Author_Id = 10,
                             Author_Name = "Sophie White",
                             Biography = "Sophie White's historical novels bring to life forgotten tales from the past, illuminating lesser-known events and characters with compassion and historical accuracy. Her meticulous research and evocative prose make her novels a captivating journey into different epochs",
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7907),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4991),
                             Created_By = "admin",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7907),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4991),
                             Updated_By = "admin"
                         },
                         new
@@ -165,9 +165,9 @@ namespace Bookstore.Migrations
                             Author_Id = 11,
                             Author_Name = "Thomas Brown",
                             Biography = "Thomas Brown's science fiction explores complex themes of identity, technology, and the nature of reality with a blend of intellectual rigor and imaginative storytelling. His speculative visions of future societies and technological advancements provoke thought and reflection",
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7908),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4993),
                             Created_By = "admin",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7909),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4993),
                             Updated_By = "admin"
                         },
                         new
@@ -175,9 +175,9 @@ namespace Bookstore.Migrations
                             Author_Id = 12,
                             Author_Name = "Emma Wilson",
                             Biography = "Emma Wilson's stories are filled with hope and resilience, portraying characters who face adversity with courage and grace. Her uplifting narratives and heartfelt storytelling resonate with readers seeking stories of human strength and the power of optimism.",
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7910),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4994),
                             Created_By = "admin",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7911),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4995),
                             Updated_By = "admin"
                         },
                         new
@@ -185,9 +185,9 @@ namespace Bookstore.Migrations
                             Author_Id = 13,
                             Author_Name = "Matthew Lee",
                             Biography = "Matthew Lee's horror novels keep readers on the edge of their seats with chilling suspense, supernatural phenomena, and spine-tingling plot twists. His atmospheric settings and vivid descriptions create an immersive reading experience for fans of horror and suspense fiction.",
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7912),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4996),
                             Created_By = "admin",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7913),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4997),
                             Updated_By = "admin"
                         },
                         new
@@ -195,9 +195,9 @@ namespace Bookstore.Migrations
                             Author_Id = 14,
                             Author_Name = "Olivia Green",
                             Biography = "Olivia Green writes gripping mysteries set in exotic locations, blending suspenseful plots with rich cultural details and compelling characters. Her ability to create atmospheric settings and intricate puzzles has earned her a reputation as a master of the mystery genre.",
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7914),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4998),
                             Created_By = "admin",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7915),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4999),
                             Updated_By = "admin"
                         },
                         new
@@ -205,9 +205,9 @@ namespace Bookstore.Migrations
                             Author_Id = 15,
                             Author_Name = "Daniel Moore",
                             Biography = "Daniel Moore's novels blend adventure with profound explorations of human nature and the mysteries of existence. His gripping narratives and multifaceted characters take readers on thrilling journeys that delve into the depths of the human psyche.",
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7917),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5000),
                             Created_By = "admin",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7918),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5001),
                             Updated_By = "admin"
                         },
                         new
@@ -215,9 +215,9 @@ namespace Bookstore.Migrations
                             Author_Id = 16,
                             Author_Name = "Lucy Hall",
                             Biography = "Lucy Hall's fantasy worlds are intricate and imaginative, filled with magic, mythical creatures, and quests that challenge characters to discover their true strengths. Her ability to create enchanting realms and compelling characters makes her a beloved author in the fantasy genre.",
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7919),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5002),
                             Created_By = "admin",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7920),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5003),
                             Updated_By = "admin"
                         },
                         new
@@ -225,9 +225,9 @@ namespace Bookstore.Migrations
                             Author_Id = 17,
                             Author_Name = "James Taylor",
                             Biography = "James Taylor's historical fiction transports readers to pivotal moments in history, weaving together personal stories with larger historical events to create a vivid tapestry of the past. His meticulous attention to historical detail and evocative storytelling bring history to life for readers.",
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7921),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5004),
                             Created_By = "admin",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7922),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5005),
                             Updated_By = "admin"
                         },
                         new
@@ -235,9 +235,9 @@ namespace Bookstore.Migrations
                             Author_Id = 18,
                             Author_Name = "Sophia Clark",
                             Biography = "Sophia Clark explores the mysteries of quantum physics and the implications of scientific discovery on humanity's understanding of reality.Her speculative fiction challenges readers to ponder the philosophical and ethical implications of technological advancements.",
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7923),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5006),
                             Created_By = "admin",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7924),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5007),
                             Updated_By = "admin"
                         });
                 });
@@ -300,252 +300,252 @@ namespace Bookstore.Migrations
                         {
                             Id = 1,
                             Author_Id = 1,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7590),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4656),
                             Created_By = "admin",
                             Description = "xyz",
                             Genre_Id = 2,
                             Price = 649.0,
                             Publication_Date = new DateTime(1905, 8, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "A Little Princess",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7595),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4661),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Id = 2,
                             Author_Id = 2,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7606),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4670),
                             Created_By = "admin",
                             Description = "xyz",
                             Genre_Id = 6,
                             Price = 150.0,
                             Publication_Date = new DateTime(2021, 11, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "Ratan Tata - A Complete Biography",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7607),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4671),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Id = 3,
                             Author_Id = 3,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7609),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4673),
                             Created_By = "admin",
                             Description = "xyz",
                             Genre_Id = 2,
                             Price = 750.0,
                             Publication_Date = new DateTime(2023, 5, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "The Hidden Realm",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7610),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4677),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Id = 4,
                             Author_Id = 4,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7613),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4680),
                             Created_By = "admin",
                             Description = "xyz",
                             Genre_Id = 3,
                             Price = 1750.0,
                             Publication_Date = new DateTime(2022, 11, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "Echoes of Yesterday",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7614),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4681),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Id = 5,
                             Author_Id = 5,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7620),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4688),
                             Created_By = "admin",
                             Description = "xyz",
                             Genre_Id = 5,
                             Price = 1750.0,
                             Publication_Date = new DateTime(2024, 2, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "Quantum Leap",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7621),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4689),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Id = 6,
                             Author_Id = 6,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7623),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4691),
                             Created_By = "admin",
                             Description = "xyz",
                             Genre_Id = 1,
                             Price = 1750.0,
                             Publication_Date = new DateTime(2023, 7, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "Shadows in the Mist",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7623),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4692),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Id = 7,
                             Author_Id = 7,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7625),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4694),
                             Created_By = "admin",
                             Description = "xyz",
                             Genre_Id = 2,
                             Price = 1750.0,
                             Publication_Date = new DateTime(2023, 9, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "Beyond the Horizon",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7626),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4695),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Id = 8,
                             Author_Id = 8,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7628),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4697),
                             Created_By = "admin",
                             Description = "xyz",
                             Genre_Id = 2,
                             Price = 1750.0,
                             Publication_Date = new DateTime(2023, 4, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "Whispers in the Wind",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7629),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4697),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Id = 9,
                             Author_Id = 9,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7631),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4699),
                             Created_By = "admin",
                             Description = "xyz",
                             Genre_Id = 1,
                             Price = 1750.0,
                             Publication_Date = new DateTime(2022, 8, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "The Last Stand",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7631),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4700),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Id = 10,
                             Author_Id = 10,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7633),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4702),
                             Created_By = "admin",
                             Description = "xyz",
                             Genre_Id = 3,
                             Price = 1750.0,
                             Publication_Date = new DateTime(2023, 11, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "The Forgotten Key",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7634),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4703),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Id = 11,
                             Author_Id = 11,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7636),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4705),
                             Created_By = "admin",
                             Description = "xyz",
                             Genre_Id = 5,
                             Price = 1750.0,
                             Publication_Date = new DateTime(2024, 1, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "Infinite Worlds",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7636),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4705),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Id = 12,
                             Author_Id = 12,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7638),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4707),
                             Created_By = "admin",
                             Description = "xyz",
                             Genre_Id = 11,
                             Price = 1750.0,
                             Publication_Date = new DateTime(2023, 6, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "A Glimmer of Hope",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7639),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4708),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Id = 13,
                             Author_Id = 13,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7641),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4710),
                             Created_By = "admin",
                             Description = "xyz",
                             Genre_Id = 4,
                             Price = 1750.0,
                             Publication_Date = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "Darkness Falls",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7641),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4711),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Id = 14,
                             Author_Id = 14,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7644),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4713),
                             Created_By = "admin",
                             Description = "xyz",
                             Genre_Id = 1,
                             Price = 1750.0,
                             Publication_Date = new DateTime(2023, 10, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "The Golden Hour",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7644),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4713),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Id = 15,
                             Author_Id = 15,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7647),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4715),
                             Created_By = "admin",
                             Description = "xyz",
                             Genre_Id = 2,
                             Price = 1750.0,
                             Publication_Date = new DateTime(2024, 3, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "Into the Abyss",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7647),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4716),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Id = 16,
                             Author_Id = 16,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7649),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4718),
                             Created_By = "admin",
                             Description = "xyz",
                             Genre_Id = 2,
                             Price = 1750.0,
                             Publication_Date = new DateTime(2023, 8, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "Through the Looking Glass",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7649),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4718),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Id = 17,
                             Author_Id = 17,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7652),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4720),
                             Created_By = "admin",
                             Description = "xyz",
                             Genre_Id = 3,
                             Price = 1750.0,
                             Publication_Date = new DateTime(2022, 9, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "The Sands of Time",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7652),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4721),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Id = 18,
                             Author_Id = 18,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7654),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4723),
                             Created_By = "admin",
                             Description = "xyz",
                             Genre_Id = 5,
                             Price = 1750.0,
                             Publication_Date = new DateTime(2024, 4, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "The Quantum Paradox",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7655),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(4724),
                             Updated_By = "admin"
                         });
                 });
@@ -587,118 +587,118 @@ namespace Bookstore.Migrations
                         new
                         {
                             Genre_Id = 1,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7974),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5064),
                             Created_By = "admin",
                             Genre_Name = "Thriller",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7974),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5066),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Genre_Id = 2,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7984),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5071),
                             Created_By = "admin",
                             Genre_Name = "Fantasy",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7984),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5072),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Genre_Id = 3,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7986),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5073),
                             Created_By = "admin",
                             Genre_Name = "History",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7986),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5074),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Genre_Id = 4,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7988),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5075),
                             Created_By = "admin",
                             Genre_Name = "Horror",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7988),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5076),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Genre_Id = 5,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7990),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5077),
                             Created_By = "admin",
                             Genre_Name = "Science Fiction",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7990),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5078),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Genre_Id = 6,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7992),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5082),
                             Created_By = "admin",
                             Genre_Name = "Biography",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7992),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5083),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Genre_Id = 7,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7994),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5084),
                             Created_By = "admin",
                             Genre_Name = "Self-Help",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7994),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5084),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Genre_Id = 8,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7995),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5087),
                             Created_By = "admin",
                             Genre_Name = "Spirituality",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7996),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5087),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Genre_Id = 9,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7997),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5089),
                             Created_By = "admin",
                             Genre_Name = "Politics",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7998),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5089),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Genre_Id = 10,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(7999),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5091),
                             Created_By = "admin",
                             Genre_Name = "Law",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(8000),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5091),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Genre_Id = 11,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(8001),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5093),
                             Created_By = "admin",
                             Genre_Name = "Literacy",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(8002),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5093),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Genre_Id = 12,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(8003),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5094),
                             Created_By = "admin",
                             Genre_Name = "Travel and Tourism",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(8004),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5095),
                             Updated_By = "admin"
                         },
                         new
                         {
                             Genre_Id = 13,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(8005),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5096),
                             Created_By = "admin",
                             Genre_Name = "Sports",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(8006),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5097),
                             Updated_By = "admin"
                         });
                 });
@@ -756,13 +756,13 @@ namespace Bookstore.Migrations
                         new
                         {
                             Id = 1,
-                            Created_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(8099),
+                            Created_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5273),
                             Created_By = "admin",
                             Email = "Pavikannan@gmail.com",
                             FirstName = "Pavithra",
                             LastName = "G",
                             Password = "Pass@123",
-                            Updated_At = new DateTime(2024, 8, 3, 14, 15, 42, 617, DateTimeKind.Utc).AddTicks(8100),
+                            Updated_At = new DateTime(2024, 8, 7, 7, 8, 33, 973, DateTimeKind.Utc).AddTicks(5274),
                             Updated_By = "admin",
                             Username = "admin"
                         });

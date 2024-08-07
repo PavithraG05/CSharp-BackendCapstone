@@ -147,3 +147,10 @@ D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\bin\Debug\net8.0\Seril
 D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\bin\Debug\net8.0\Serilog.Sinks.File.dll
+D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\bin\Debug\net8.0\Asp.Versioning.Http.dll
+D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Users\pavithra\source\CSharp-BackendCapstone\Bookstore\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll

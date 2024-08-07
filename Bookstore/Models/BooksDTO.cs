@@ -1,4 +1,6 @@
-﻿namespace Bookstore.Models
+﻿using Bookstore.Entities;
+
+namespace Bookstore.Models
 {
     public class BooksDTO
     {
@@ -9,6 +11,7 @@
         public double Price { get; set; }
         public DateTime Publication_Date { get; set; }
         public string Description { get; set; }
+
         public DateTime? Created_At { get; set; }
         public DateTime? Updated_At { get; set; }
         public string? Created_By { get; set; }

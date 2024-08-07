@@ -7,12 +7,14 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Data.SqlClient;
 using System.Reflection;
+using Asp.Versioning;
 
 namespace Bookstore.Controllers
 {
     [ApiController]
     [Authorize]
-    [Route("api/authors")]
+    [Route("api/v{version:apiVersion}/authors")]
+    [ApiVersion(1)]
     public class AuthorController : ControllerBase
     {
         private readonly IBookstoreRepository _bookstore;
