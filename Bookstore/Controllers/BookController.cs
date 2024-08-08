@@ -269,6 +269,7 @@ namespace Bookstore.Controllers
                 existingBookEntity.Publication_Date = book.Publication_Date;
                 existingBookEntity.Author_Id = book.Author_Id;
                 existingBookEntity.Genre_Id = book.Genre_Id;
+                existingBookEntity.Description = book.Description;
                 existingBookEntity.Updated_At = DateTime.UtcNow;
             }
             try
