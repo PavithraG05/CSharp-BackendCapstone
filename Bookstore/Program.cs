@@ -7,7 +7,7 @@ using Serilog;
 Log.Logger = new LoggerConfiguration().MinimumLevel.Debug().WriteTo.Console().WriteTo
     .File("Logs/BookstoreLog.txt",rollingInterval:RollingInterval.Day).CreateLogger();
 var builder = WebApplication.CreateBuilder(args);
-//builder.Logging.ClearProviders();
+//builder.Logging.AddLogging();
 //builder.Logging.AddConsole();
 builder.Host.UseSerilog();
 // Add services to the container.
