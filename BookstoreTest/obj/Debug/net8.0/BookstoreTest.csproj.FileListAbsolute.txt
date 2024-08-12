@@ -169,3 +169,5 @@ D:\Users\pavithra\source\CSharp-BackendCapstone\BookstoreTest\obj\Debug\net8.0\r
 D:\Users\pavithra\source\CSharp-BackendCapstone\BookstoreTest\obj\Debug\net8.0\BookstoreTest.pdb
 D:\Users\pavithra\source\CSharp-BackendCapstone\BookstoreTest\obj\Debug\net8.0\BookstoreTest.genruntimeconfig.cache
 D:\Users\pavithra\source\CSharp-BackendCapstone\BookstoreTest\obj\Debug\net8.0\ref\BookstoreTest.dll
+D:\Users\pavithra\source\CSharp-BackendCapstone\BookstoreTest\bin\Debug\net8.0\FakeItEasy.dll
+D:\Users\pavithra\source\CSharp-BackendCapstone\BookstoreTest\bin\Debug\net8.0\FluentAssertions.dll

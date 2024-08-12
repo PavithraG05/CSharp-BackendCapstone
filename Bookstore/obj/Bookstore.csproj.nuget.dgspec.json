@@ -76,6 +76,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "ReportGenerator": {
+              "target": "Package",
+              "version": "[5.3.8, )"
+            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[8.0.0, )"

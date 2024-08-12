@@ -148,6 +148,38 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "FakeItEasy/8.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Castle.Core": "5.1.1"
+        },
+        "compile": {
+          "lib/net8.0/FakeItEasy.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FakeItEasy.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FluentAssertions/6.12.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "4.4.0"
+        },
+        "compile": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -1116,7 +1148,7 @@
       "Microsoft.Win32.SystemEvents/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
             "related": ".xml"
           }
         },
@@ -1236,6 +1268,12 @@
         },
         "runtime": {
           "lib/netstandard2.0/NuGet.Frameworks.dll": {}
+        }
+      },
+      "ReportGenerator/5.3.8": {
+        "type": "package",
+        "build": {
+          "build/netstandard2.0/ReportGenerator.props": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -1705,7 +1743,7 @@
           "System.Security.Permissions": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/System.Configuration.ConfigurationManager.dll": {
             "related": ".xml"
           }
         },
@@ -1820,7 +1858,7 @@
           "Microsoft.Win32.SystemEvents": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/System.Drawing.Common.dll": {
             "related": ".xml"
           }
         },
@@ -2484,7 +2522,7 @@
       "System.Security.AccessControl/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/System.Security.AccessControl.dll": {
             "related": ".xml"
           }
         },
@@ -2746,7 +2784,7 @@
           "System.Windows.Extensions": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/System.Security.Permissions.dll": {
             "related": ".xml"
           }
         },
@@ -2943,7 +2981,7 @@
           "System.Drawing.Common": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/System.Windows.Extensions.dll": {
             "related": ".xml"
           }
         },
@@ -3123,6 +3161,7 @@
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0",
+          "ReportGenerator": "5.3.8",
           "Serilog.AspNetCore": "8.0.0",
           "Serilog.Sinks.Console": "6.0.0",
           "Serilog.Sinks.File": "6.0.0",
@@ -3335,6 +3374,59 @@
         "coverlet-icon.png",
         "coverlet.collector.6.0.0.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "FakeItEasy/8.3.0": {
+      "sha512": "5QmShA6njFOhQHUYrFUjWEepfRcbQLOhgctaFhWyhPTi17kVGNyZOdvJ/2HhoNthmdghIzNsnZsMScJZhVBaQQ==",
+      "type": "package",
+      "path": "fakeiteasy/8.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fakeiteasy.8.3.0.nupkg.sha512",
+        "fakeiteasy.nuspec",
+        "images/FakeItEasy.png",
+        "lib/net462/FakeItEasy.dll",
+        "lib/net462/FakeItEasy.xml",
+        "lib/net6.0/FakeItEasy.dll",
+        "lib/net6.0/FakeItEasy.xml",
+        "lib/net8.0/FakeItEasy.dll",
+        "lib/net8.0/FakeItEasy.xml",
+        "lib/netstandard2.0/FakeItEasy.dll",
+        "lib/netstandard2.0/FakeItEasy.xml",
+        "lib/netstandard2.1/FakeItEasy.dll",
+        "lib/netstandard2.1/FakeItEasy.xml"
+      ]
+    },
+    "FluentAssertions/6.12.0": {
+      "sha512": "ZXhHT2YwP9lajrwSKbLlFqsmCCvFJMoRSK9t7sImfnCyd0OB3MhgxdoMcVqxbq1iyxD6mD2fiackWmBb7ayiXQ==",
+      "type": "package",
+      "path": "fluentassertions/6.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "FluentAssertions.png",
+        "fluentassertions.6.12.0.nupkg.sha512",
+        "fluentassertions.nuspec",
+        "lib/net47/FluentAssertions.dll",
+        "lib/net47/FluentAssertions.pdb",
+        "lib/net47/FluentAssertions.xml",
+        "lib/net6.0/FluentAssertions.dll",
+        "lib/net6.0/FluentAssertions.pdb",
+        "lib/net6.0/FluentAssertions.xml",
+        "lib/netcoreapp2.1/FluentAssertions.dll",
+        "lib/netcoreapp2.1/FluentAssertions.pdb",
+        "lib/netcoreapp2.1/FluentAssertions.xml",
+        "lib/netcoreapp3.0/FluentAssertions.dll",
+        "lib/netcoreapp3.0/FluentAssertions.pdb",
+        "lib/netcoreapp3.0/FluentAssertions.xml",
+        "lib/netstandard2.0/FluentAssertions.dll",
+        "lib/netstandard2.0/FluentAssertions.pdb",
+        "lib/netstandard2.0/FluentAssertions.xml",
+        "lib/netstandard2.1/FluentAssertions.dll",
+        "lib/netstandard2.1/FluentAssertions.pdb",
+        "lib/netstandard2.1/FluentAssertions.xml"
       ]
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.0": {
@@ -5035,6 +5127,251 @@
         "lib/netstandard2.0/NuGet.Frameworks.dll",
         "nuget.frameworks.6.5.0.nupkg.sha512",
         "nuget.frameworks.nuspec"
+      ]
+    },
+    "ReportGenerator/5.3.8": {
+      "sha512": "F+JLYA1c3uXMob8f8Wx6APRzZyvcsr5NVGsQOApBeOsyu1rZamWkfb68akm4aR5rfRXMytZsPGFou8xDJV+IcQ==",
+      "type": "package",
+      "path": "reportgenerator/5.3.8",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "Readme.md",
+        "Readme.txt",
+        "build/netstandard2.0/ReportGenerator.props",
+        "icon.png",
+        "reportgenerator.5.3.8.nupkg.sha512",
+        "reportgenerator.nuspec",
+        "tools/net47/DotNetConfig.dll",
+        "tools/net47/Microsoft.Bcl.AsyncInterfaces.dll",
+        "tools/net47/Microsoft.CSharp.dll",
+        "tools/net47/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "tools/net47/Microsoft.Extensions.Configuration.Binder.dll",
+        "tools/net47/Microsoft.Extensions.Configuration.CommandLine.dll",
+        "tools/net47/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "tools/net47/Microsoft.Extensions.Configuration.Json.dll",
+        "tools/net47/Microsoft.Extensions.Configuration.dll",
+        "tools/net47/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "tools/net47/Microsoft.Extensions.FileProviders.Physical.dll",
+        "tools/net47/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "tools/net47/Microsoft.Extensions.Primitives.dll",
+        "tools/net47/Microsoft.NET.StringTools.dll",
+        "tools/net47/Microsoft.Win32.Primitives.dll",
+        "tools/net47/Microsoft.Win32.Registry.dll",
+        "tools/net47/ReportGenerator.Core.deps.json",
+        "tools/net47/ReportGenerator.Core.dll",
+        "tools/net47/ReportGenerator.MSBuild.dll",
+        "tools/net47/ReportGenerator.exe",
+        "tools/net47/ReportGenerator.exe.config",
+        "tools/net47/System.AppContext.dll",
+        "tools/net47/System.Buffers.dll",
+        "tools/net47/System.Collections.Concurrent.dll",
+        "tools/net47/System.Collections.Immutable.dll",
+        "tools/net47/System.Collections.NonGeneric.dll",
+        "tools/net47/System.Collections.Specialized.dll",
+        "tools/net47/System.Collections.dll",
+        "tools/net47/System.ComponentModel.EventBasedAsync.dll",
+        "tools/net47/System.ComponentModel.Primitives.dll",
+        "tools/net47/System.ComponentModel.TypeConverter.dll",
+        "tools/net47/System.ComponentModel.dll",
+        "tools/net47/System.Configuration.ConfigurationManager.dll",
+        "tools/net47/System.Console.dll",
+        "tools/net47/System.Data.Common.dll",
+        "tools/net47/System.Diagnostics.Contracts.dll",
+        "tools/net47/System.Diagnostics.Debug.dll",
+        "tools/net47/System.Diagnostics.FileVersionInfo.dll",
+        "tools/net47/System.Diagnostics.Process.dll",
+        "tools/net47/System.Diagnostics.StackTrace.dll",
+        "tools/net47/System.Diagnostics.TextWriterTraceListener.dll",
+        "tools/net47/System.Diagnostics.Tools.dll",
+        "tools/net47/System.Diagnostics.TraceSource.dll",
+        "tools/net47/System.Diagnostics.Tracing.dll",
+        "tools/net47/System.Drawing.Primitives.dll",
+        "tools/net47/System.Dynamic.Runtime.dll",
+        "tools/net47/System.Globalization.Calendars.dll",
+        "tools/net47/System.Globalization.Extensions.dll",
+        "tools/net47/System.Globalization.dll",
+        "tools/net47/System.IO.Compression.ZipFile.dll",
+        "tools/net47/System.IO.Compression.dll",
+        "tools/net47/System.IO.FileSystem.DriveInfo.dll",
+        "tools/net47/System.IO.FileSystem.Primitives.dll",
+        "tools/net47/System.IO.FileSystem.Watcher.dll",
+        "tools/net47/System.IO.FileSystem.dll",
+        "tools/net47/System.IO.IsolatedStorage.dll",
+        "tools/net47/System.IO.MemoryMappedFiles.dll",
+        "tools/net47/System.IO.Pipes.dll",
+        "tools/net47/System.IO.UnmanagedMemoryStream.dll",
+        "tools/net47/System.IO.dll",
+        "tools/net47/System.Linq.Expressions.dll",
+        "tools/net47/System.Linq.Parallel.dll",
+        "tools/net47/System.Linq.Queryable.dll",
+        "tools/net47/System.Linq.dll",
+        "tools/net47/System.Memory.dll",
+        "tools/net47/System.Net.Http.dll",
+        "tools/net47/System.Net.NameResolution.dll",
+        "tools/net47/System.Net.NetworkInformation.dll",
+        "tools/net47/System.Net.Ping.dll",
+        "tools/net47/System.Net.Primitives.dll",
+        "tools/net47/System.Net.Requests.dll",
+        "tools/net47/System.Net.Security.dll",
+        "tools/net47/System.Net.Sockets.dll",
+        "tools/net47/System.Net.WebHeaderCollection.dll",
+        "tools/net47/System.Net.WebSockets.Client.dll",
+        "tools/net47/System.Net.WebSockets.dll",
+        "tools/net47/System.Numerics.Vectors.dll",
+        "tools/net47/System.ObjectModel.dll",
+        "tools/net47/System.Reflection.Extensions.dll",
+        "tools/net47/System.Reflection.Primitives.dll",
+        "tools/net47/System.Reflection.dll",
+        "tools/net47/System.Resources.Reader.dll",
+        "tools/net47/System.Resources.ResourceManager.dll",
+        "tools/net47/System.Resources.Writer.dll",
+        "tools/net47/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/net47/System.Runtime.CompilerServices.VisualC.dll",
+        "tools/net47/System.Runtime.Extensions.dll",
+        "tools/net47/System.Runtime.Handles.dll",
+        "tools/net47/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "tools/net47/System.Runtime.InteropServices.dll",
+        "tools/net47/System.Runtime.Numerics.dll",
+        "tools/net47/System.Runtime.Serialization.Formatters.dll",
+        "tools/net47/System.Runtime.Serialization.Json.dll",
+        "tools/net47/System.Runtime.Serialization.Primitives.dll",
+        "tools/net47/System.Runtime.Serialization.Xml.dll",
+        "tools/net47/System.Runtime.dll",
+        "tools/net47/System.Security.AccessControl.dll",
+        "tools/net47/System.Security.Claims.dll",
+        "tools/net47/System.Security.Cryptography.Algorithms.dll",
+        "tools/net47/System.Security.Cryptography.Csp.dll",
+        "tools/net47/System.Security.Cryptography.Encoding.dll",
+        "tools/net47/System.Security.Cryptography.Primitives.dll",
+        "tools/net47/System.Security.Cryptography.X509Certificates.dll",
+        "tools/net47/System.Security.Principal.Windows.dll",
+        "tools/net47/System.Security.Principal.dll",
+        "tools/net47/System.Security.SecureString.dll",
+        "tools/net47/System.Text.Encoding.CodePages.dll",
+        "tools/net47/System.Text.Encoding.Extensions.dll",
+        "tools/net47/System.Text.Encoding.dll",
+        "tools/net47/System.Text.Encodings.Web.dll",
+        "tools/net47/System.Text.Json.dll",
+        "tools/net47/System.Text.RegularExpressions.dll",
+        "tools/net47/System.Threading.Overlapped.dll",
+        "tools/net47/System.Threading.Tasks.Extensions.dll",
+        "tools/net47/System.Threading.Tasks.Parallel.dll",
+        "tools/net47/System.Threading.Tasks.dll",
+        "tools/net47/System.Threading.Thread.dll",
+        "tools/net47/System.Threading.ThreadPool.dll",
+        "tools/net47/System.Threading.Timer.dll",
+        "tools/net47/System.Threading.dll",
+        "tools/net47/System.ValueTuple.dll",
+        "tools/net47/System.Xml.ReaderWriter.dll",
+        "tools/net47/System.Xml.XDocument.dll",
+        "tools/net47/System.Xml.XPath.XDocument.dll",
+        "tools/net47/System.Xml.XPath.dll",
+        "tools/net47/System.Xml.XmlDocument.dll",
+        "tools/net47/System.Xml.XmlSerializer.dll",
+        "tools/net47/appsettings.json",
+        "tools/net47/netstandard.dll",
+        "tools/net6.0/DotNetConfig.dll",
+        "tools/net6.0/McMaster.NETCore.Plugins.dll",
+        "tools/net6.0/Microsoft.DotNet.PlatformAbstractions.dll",
+        "tools/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "tools/net6.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "tools/net6.0/Microsoft.Extensions.Configuration.CommandLine.dll",
+        "tools/net6.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "tools/net6.0/Microsoft.Extensions.Configuration.Json.dll",
+        "tools/net6.0/Microsoft.Extensions.Configuration.dll",
+        "tools/net6.0/Microsoft.Extensions.DependencyModel.dll",
+        "tools/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "tools/net6.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "tools/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "tools/net6.0/Microsoft.Extensions.Primitives.dll",
+        "tools/net6.0/Microsoft.NET.StringTools.dll",
+        "tools/net6.0/ReportGenerator.Core.dll",
+        "tools/net6.0/ReportGenerator.Core.xml",
+        "tools/net6.0/ReportGenerator.DotnetCorePluginLoader.dll",
+        "tools/net6.0/ReportGenerator.DotnetCorePluginLoader.xml",
+        "tools/net6.0/ReportGenerator.MSBuild.dll",
+        "tools/net6.0/ReportGenerator.deps.json",
+        "tools/net6.0/ReportGenerator.dll",
+        "tools/net6.0/ReportGenerator.exe",
+        "tools/net6.0/ReportGenerator.runtimeconfig.json",
+        "tools/net6.0/System.Collections.Immutable.dll",
+        "tools/net6.0/System.Configuration.ConfigurationManager.dll",
+        "tools/net6.0/System.Security.Cryptography.ProtectedData.dll",
+        "tools/net6.0/System.Text.Encoding.CodePages.dll",
+        "tools/net6.0/System.Text.Encodings.Web.dll",
+        "tools/net6.0/System.Text.Json.dll",
+        "tools/net6.0/appsettings.json",
+        "tools/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll",
+        "tools/net6.0/runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.dll",
+        "tools/net7.0/DotNetConfig.dll",
+        "tools/net7.0/McMaster.NETCore.Plugins.dll",
+        "tools/net7.0/Microsoft.DotNet.PlatformAbstractions.dll",
+        "tools/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "tools/net7.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "tools/net7.0/Microsoft.Extensions.Configuration.CommandLine.dll",
+        "tools/net7.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "tools/net7.0/Microsoft.Extensions.Configuration.Json.dll",
+        "tools/net7.0/Microsoft.Extensions.Configuration.dll",
+        "tools/net7.0/Microsoft.Extensions.DependencyModel.dll",
+        "tools/net7.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "tools/net7.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "tools/net7.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "tools/net7.0/Microsoft.Extensions.Primitives.dll",
+        "tools/net7.0/Microsoft.NET.StringTools.dll",
+        "tools/net7.0/ReportGenerator.Core.dll",
+        "tools/net7.0/ReportGenerator.Core.xml",
+        "tools/net7.0/ReportGenerator.DotnetCorePluginLoader.dll",
+        "tools/net7.0/ReportGenerator.DotnetCorePluginLoader.xml",
+        "tools/net7.0/ReportGenerator.MSBuild.dll",
+        "tools/net7.0/ReportGenerator.deps.json",
+        "tools/net7.0/ReportGenerator.dll",
+        "tools/net7.0/ReportGenerator.exe",
+        "tools/net7.0/ReportGenerator.runtimeconfig.json",
+        "tools/net7.0/System.Collections.Immutable.dll",
+        "tools/net7.0/System.Configuration.ConfigurationManager.dll",
+        "tools/net7.0/System.Diagnostics.EventLog.dll",
+        "tools/net7.0/System.Security.Cryptography.ProtectedData.dll",
+        "tools/net7.0/System.Text.Encodings.Web.dll",
+        "tools/net7.0/System.Text.Json.dll",
+        "tools/net7.0/appsettings.json",
+        "tools/net7.0/runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll",
+        "tools/net7.0/runtimes/win/lib/net7.0/System.Diagnostics.EventLog.Messages.dll",
+        "tools/net7.0/runtimes/win/lib/net7.0/System.Diagnostics.EventLog.dll",
+        "tools/net8.0/DotNetConfig.dll",
+        "tools/net8.0/McMaster.NETCore.Plugins.dll",
+        "tools/net8.0/Microsoft.Build.Framework.dll",
+        "tools/net8.0/Microsoft.Build.Utilities.Core.dll",
+        "tools/net8.0/Microsoft.DotNet.PlatformAbstractions.dll",
+        "tools/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "tools/net8.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "tools/net8.0/Microsoft.Extensions.Configuration.CommandLine.dll",
+        "tools/net8.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "tools/net8.0/Microsoft.Extensions.Configuration.Json.dll",
+        "tools/net8.0/Microsoft.Extensions.Configuration.dll",
+        "tools/net8.0/Microsoft.Extensions.DependencyModel.dll",
+        "tools/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "tools/net8.0/Microsoft.Extensions.FileProviders.Physical.dll",
+        "tools/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "tools/net8.0/Microsoft.Extensions.Primitives.dll",
+        "tools/net8.0/Microsoft.NET.StringTools.dll",
+        "tools/net8.0/ReportGenerator.Core.dll",
+        "tools/net8.0/ReportGenerator.Core.xml",
+        "tools/net8.0/ReportGenerator.DotnetCorePluginLoader.dll",
+        "tools/net8.0/ReportGenerator.DotnetCorePluginLoader.xml",
+        "tools/net8.0/ReportGenerator.MSBuild.dll",
+        "tools/net8.0/ReportGenerator.deps.json",
+        "tools/net8.0/ReportGenerator.dll",
+        "tools/net8.0/ReportGenerator.exe",
+        "tools/net8.0/ReportGenerator.runtimeconfig.json",
+        "tools/net8.0/System.Configuration.ConfigurationManager.dll",
+        "tools/net8.0/System.Diagnostics.EventLog.dll",
+        "tools/net8.0/System.Security.Cryptography.ProtectedData.dll",
+        "tools/net8.0/appsettings.json",
+        "tools/net8.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll",
+        "tools/net8.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -9375,8 +9712,11 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Bookstore >= 1.0.0",
+      "FakeItEasy >= 8.3.0",
+      "FluentAssertions >= 6.12.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "Moq >= 4.20.70",
+      "ReportGenerator >= 5.3.8",
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.5.3",
       "xunit.runner.visualstudio >= 2.5.3"
@@ -9431,6 +9771,14 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "FakeItEasy": {
+            "target": "Package",
+            "version": "[8.3.0, )"
+          },
+          "FluentAssertions": {
+            "target": "Package",
+            "version": "[6.12.0, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.8.0, )"
@@ -9438,6 +9786,10 @@
           "Moq": {
             "target": "Package",
             "version": "[4.20.70, )"
+          },
+          "ReportGenerator": {
+            "target": "Package",
+            "version": "[5.3.8, )"
           },
           "coverlet.collector": {
             "target": "Package",
